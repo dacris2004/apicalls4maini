@@ -131,6 +131,9 @@ Public Class Ini
             Rw.Dispose()
             Rw = Nothing
             SaveIniFile = True
+            Return True
+        Else
+            Return False
         End If
 
     End Function
